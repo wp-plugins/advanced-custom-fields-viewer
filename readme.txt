@@ -19,14 +19,15 @@ Once you activated, your ACF field data will never be in the way of your design 
 
 * Viewer button hidden until needed in the top left corner of your theme
 * 3 Different color schemes for the front end viewer
-* Supports viewing of non Advanced Custom Fields arrays! Just use '<?php acfv( $array ); ?>'
+* Supports viewing of non Advanced Custom Fields arrays! Just use acfv( $array )
 
 == Installation ==
 
 1. Upload \'advanced-custom-fields-viewer\' to the \'/wp-content/plugins/\' directory
 2. Activate the plugin through the \'Plugins\' menu in WordPress
-3. Click on the new menu item \"ACF Viewer\" for plugin options
+3. Click on the new menu item \"Viewer\" for plugin options
 4. Hover top left of the front of your site to see the toggle button for all available ACF fields for the current page, as well as the options page if avaialable.
+5. Use acfv( $array ) to view arrays outside of Advanced Custom Fields
 
 == Screenshots ==
 
@@ -35,6 +36,9 @@ Once you activated, your ACF field data will never be in the way of your design 
 2. The Front End Viewer
 
 == Changelog ==
+
+= 1.1.2 =
+* Edited plugin description
 
 = 1.1.1 =
 * Added admin menu icon
@@ -46,4 +50,3 @@ Once you activated, your ACF field data will never be in the way of your design 
 
 = 1.0.0 =
 * Advanced Custom Fields Viewer
-

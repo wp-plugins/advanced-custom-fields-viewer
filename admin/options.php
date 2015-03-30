@@ -6,7 +6,7 @@ function acfv_create_menu() {
 	// create new top-level menu
 	add_menu_page(
 		'Advanced Custom Fields Viewer',
-		'ACF Viewer',
+		'Viewer',
 		'manage_options',
 		__FILE__,
 		'acfv_settings_page',
