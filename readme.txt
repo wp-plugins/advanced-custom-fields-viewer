@@ -36,6 +36,9 @@ Once you activated, your ACF field data will never be in the way of your design 
 
 == Changelog ==
 
+= 1.1.1 =
+* Added admin menu icon
+
 = 1.1.0 =
 * Added support for non Advanced Custom Fields arrays to be seen in viewer
 * Added svg icon to viewer button

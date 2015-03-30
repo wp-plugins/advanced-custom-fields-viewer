@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Advanced Custom Fields Viewer
- * Version: 1.1.0
+ * Version: 1.1.1
  * Plugin URI: http://josephfus.co/
  * Description: View Advanced Custom Fields data on the front end of your theme while developing.
  * Author: Joseph Fusco

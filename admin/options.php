@@ -10,7 +10,7 @@ function acfv_create_menu() {
 		'manage_options',
 		__FILE__,
 		'acfv_settings_page',
-		'dashicons-admin-generic', 89
+		plugins_url( '/logo.svg' , __FILE__ ), 89
 	);
 
 	// call register settings function
