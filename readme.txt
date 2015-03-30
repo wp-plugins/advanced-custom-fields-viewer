@@ -2,7 +2,7 @@
 Contributors: JoeFusco
 Tags: ACF, Advanced Custom Fields, custom, field, custom field, advanced, preview, viewer, inpsect, more fields, repeater, post, type, text, textarea, file, image, edit, admin
 Requires at least: 3.9.0
-Tested up to: 4.1.1
+Tested up to: 4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Stable Tag: trunk
@@ -11,9 +11,15 @@ View Advanced Custom Fields names & data on the front end of your theme while de
 
 == Description ==
 
-If you are working with a large number of fields in Elliot Condon’s Advanced Custom Fields, chances are you manually wrap print_r inside of pre tags while building themes. Sometimes you just need all the fields you are working more accessible and out of the way. You will be able to bounce back and forth between fields on your current page and the options page if available, and quickly close the menu once done.
+If you are working with a large number of fields in Elliot Condon’s Advanced Custom Fields, chances are you manually wrap print_r inside of pre tags while building themes. Sometimes you just need all the fields you are working with more accessible and out of the way. You will be able to bounce back and forth between fields on your current page and the options page if available, and quickly close the menu once done.
 
 Once you activated, your ACF field data will never be in the way of your design again!
+
+= Features =
+
+* Viewer button hidden until needed in the top left corner of your theme
+* 3 Different color schemes for the front end viewer
+* Supports viewing of non Advanced Custom Fields arrays! Just use '<?php acfv( $array ); ?>'
 
 == Installation ==
 
@@ -29,6 +35,11 @@ Once you activated, your ACF field data will never be in the way of your design 
 2. The Front End Viewer
 
 == Changelog ==
+
+= 1.1.0 =
+* Added support for non Advanced Custom Fields arrays to be seen in viewer
+* Added svg icon to viewer button
+* Cleaned up source code
 
 = 1.0.0 =
 * Advanced Custom Fields Viewer
