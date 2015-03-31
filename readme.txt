@@ -37,6 +37,9 @@ Once you activated, your ACF field data will never be in the way of your design 
 
 == Changelog ==
 
+= 1.1.3 =
+* Fixed white-space bug within pre element
+
 = 1.1.2 =
 * Edited plugin description
 

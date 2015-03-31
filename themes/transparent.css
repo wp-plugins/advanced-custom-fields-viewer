@@ -67,6 +67,7 @@ html.acfv-active {
 }
 
 #acfv-wrap pre {
+	white-space: pre-wrap;
 	overflow-y: auto;
 	background-color: rgba(0,0,0,.4);
 	line-height: 1.2;
