@@ -37,6 +37,12 @@ Once you activated, your ACF field data will never be in the way of your design 
 
 == Changelog ==
 
+= 1.1.4 =
+* Fixed php errors with defining constants
+* Increased z-index of viewer to be just underneath admin bar
+* Improved viewer selectors to prevent theme overrides
+* Added slight padding to viewer for improved appearance
+
 = 1.1.3 =
 * Fixed white-space bug within pre element
 

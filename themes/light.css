@@ -15,6 +15,12 @@ html.acfv-active {
 	fill: #555;
 }
 
+#acfv-current-viewer,
+#acfv-options-viewer {
+	margin: 0;
+	padding: 5px;
+}
+
 #acfv-wrap {
 	position: fixed;
 	background-color: #EEE;
@@ -26,7 +32,7 @@ html.acfv-active {
 	top: 0;
 	left: -100%;
 	padding: 10px;
-	z-index: 4040;
+	z-index: 99999;
 	-webkit-transition: left 0.2s ease;
 	-moz-transition: left 0.2s ease;
 	-o-transition: left 0.2s ease;
@@ -34,7 +40,7 @@ html.acfv-active {
 }
 
 #acfv-click-layer{
-	z-index: 4039;
+	z-index: 99998;
 	position: fixed;
 	top: 0;
 	left: -100%;
@@ -193,12 +199,16 @@ span.acfv-label {
 
 .acfv-footer {
 	position: absolute;
-	bottom: 0;
+	bottom: 30px;
+}
+
+.acfv-footer a {
+	text-decoration: none;
 }
 
 #acfv-toggle {
 	position: fixed;
-	z-index: 4040;
+	z-index: 99999;
 	top: 10px;
 	left: 10px;
 	opacity: 0;
